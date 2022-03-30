@@ -1,0 +1,20 @@
+{
+  "CONTRACT_ADDRESS": "0xCCC2A86ef13706de19fDEDE55281A90B5Df7f0C0",
+  "SCAN_LINK": "https://etherscan.io/address/0xCCC2A86ef13706de19fDEDE55281A90B5Df7f0C0",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Space Beans Rocket Pass",
+  "SYMBOL": "SBRP",
+  "MAX_SUPPLY":100,
+  "WEI_COST": 170000000000000000,
+  "WEI_COST_WL": 120000000000000000,
+  "DISPLAY_COST": 0.17,
+  "DISPLAY_COST_WL": 0.12,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/space-beans-rocket-pass",
+  "SHOW_BACKGROUND": true
+}
