@@ -252,16 +252,6 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-              }}
-            >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -357,6 +347,17 @@ function App() {
                   </s.Container>
                 ) : (
                   <>
+                    <s.TextTitle
+                      style={{
+                      textAlign: "center",
+                      fontSize: 50,
+                      fontWeight: "bold",
+                      color: "var(--accent-text)",
+                    }}
+                    >
+                    {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+                    </s.TextTitle>
+                    <s.SpacerMedium />
                     <s.TextDescription
                       style={{
                         textAlign: "center",
@@ -364,7 +365,7 @@ function App() {
                       }}
                     >
                       {feedback}
-                    </s.TextDescription>
+                    </s.TextDescription>         
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledRoundButton
